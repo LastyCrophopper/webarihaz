@@ -30,6 +30,19 @@
 
 
       <h6>Szűrés ár szerint:</h6>
+      <div class="mb-3">
+    <label for="termekNev" class="form-label">A termék neve:</label>
+    <input type="text" class="form-control" id="termekNev" placeholder="A termék neve">
+  </div>
+
+  <div class="mb-3">
+    <label for="arRange" class="form-label">
+      Szűrés ár szerint: <span id="arErtek">5000</span> Ft
+    </label>
+    <input type="range" class="form-range" min="0" max="10000" step="500" id="arRange">
+  </div>
+
+</aside>
 
 
     </aside>
@@ -37,18 +50,32 @@
     <article class="col-md-6 bg-white p-3">
         <h2>Férfi Póló Mérettánlázat</h2>
         <h6>Az adatok centiméterben érthetőek. A mérettáblázat hibahatára +/- 2cm.</h6>
+            <article class="col-md-6">
+  <h2>Férfi Póló Mérettáblázat</h2>
+  <p>Az adatok centiméterben értendők. A mérettáblázat hibahatára +/- 2cm.</p>
 
+  <table class="table table-borderless">
 
+    <thead>
+      <tr>
+        <th>Méret</th>
+        <th>Szélesség</th>
+        <th>Hossz</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>S</td><td>50 cm</td><td>69 cm</td></tr>
+      <tr><td>M</td><td>53 cm</td><td>72 cm</td></tr>
+      <tr><td>L</td><td>56 cm</td><td>74 cm</td></tr>
+      <tr><td>XL</td><td>58 cm</td><td>76 cm</td></tr>
+      <tr><td>2XL</td><td>62 cm</td><td>78 cm</td></tr>
+      <tr><td>3XL</td><td>64 cm</td><td>80 cm</td></tr>
+      <tr><td>4XL</td><td>68 cm</td><td>84 cm</td></tr>
+      <tr><td>5XL</td><td>72 cm</td><td>88 cm</td></tr>
+    </tbody>
+  </table>
+</article>
 
-
-    </article>
-
-    <aside class="col-md-3 bg-light p-3">
-        <h3>Kapcsolódó cikkek 1</h3>
-        
-    </aside>
-
-  </div>
 
   <footer class="bg-light text-black text-center p-3 mt-3">
     <p>Réthy Viktória</p>
